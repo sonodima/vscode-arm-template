@@ -1,0 +1,8 @@
+{
+  "files.associations": {
+    "*.s": "arm"
+  },
+  "lldb.showDisassembly": "auto",
+  "lldb.dereferencePointers": true,
+  "lldb.consoleMode": "commands"
+}
