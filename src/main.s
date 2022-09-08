@@ -1,11 +1,10 @@
-// Linux System Call Table:
-// https://thog.github.io/syscalls-table-aarch64/latest.html  
+  // Linux System Call Table:
+  // https://thog.github.io/syscalls-table-aarch64/latest.html  
   
   .cpu cortex-a53
 
   .text
   .p2align 2
-
 
 
   .global _start
@@ -20,7 +19,7 @@ _start:
   // exit
   mov x0, #0
   mov x8, #0x5D
-
+  svc 0
 
 
   .data
