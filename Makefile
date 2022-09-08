@@ -17,7 +17,7 @@ $(OBJ)/%.o: $(SRC)/%.s
 
 .SILENT: build
 build: $(OBJECTS)
-	@mkdir -p $(OUT)
+	mkdir -p $(OUT)
 	ld.lld -m aarch64elf -nostdlib $^ -o $(OUT)/$(OUTPUT_NAME)
 	echo "✅ \033[1;32mCompilation succeeded\033[1;39m"
 
