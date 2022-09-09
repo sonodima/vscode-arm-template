@@ -33,7 +33,13 @@ These are listed in the `extensions.json` file and will be automatically install
 
 ## Requirements:
 
-- llvm
-- lldb
-- clang
-- make
+The llvm compiler infrastructure is required for this project.<br>
+You can easily install it with the following command:
+
+```bash
+# Ubuntu / APT
+apt install -y llvm clang lld lldb make
+
+# Fedora / DNF
+dnf -y install llvm clang lld lldb make
+```
