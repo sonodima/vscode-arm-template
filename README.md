@@ -1,6 +1,13 @@
-# vscode-arm-template
+<h1 align="center">VSCode ARM Template 🤖</h1>
 
-Simple template for ARM64 assembly development with Visual Studio Code.
+<div align="center">
+  <img src="https://badgen.net/badge/arch/ARMv8/pink"/>
+  <img src="https://badgen.net/badge/platform/Linux/orange"/>
+  <br>
+  <br>
+</div>
+ 
+> Simple template for ARM64 assembly development with Visual Studio Code.
 
 The default target is the `cortex-a53`, but it can be changed in the CFLAGS variable in the Makefile.
 
