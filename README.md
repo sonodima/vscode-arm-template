@@ -12,9 +12,9 @@ The default target is the `cortex-a53`, but it can be changed in the CFLAGS vari
 
 ## Build Commands:
 
-- `make:` builds all the `.s` files in the `src` directory to a binary in the `out` directory.
-- `run:` same as `make` but also runs the generated binary.
-- `clean:` removes the content of the `out` and `obj` directories.
+- `make` builds all the <kbd>.s</kbd> files in the `src` directory to a binary in the `out` directory.
+- `run` same as `make` but also runs the generated binary.
+- `clean` removes the content of the `out` and `obj` directories.
 
 ### Debugging:
 
