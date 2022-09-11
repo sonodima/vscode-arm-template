@@ -1,5 +1,6 @@
 {
   "files.associations": {
+    "build.config": "properties",
     "*.s": "arm"
   },
   "lldb.showDisassembly": "auto",

@@ -9,19 +9,21 @@
  
 > Simple template for ARMv8 assembly development with Visual Studio Code.
 
-The default target is the `cortex-a53`, but it can be changed in the CFLAGS variable in the Makefile.
+The default target is the `cortex-a53;aarch64-elf`, but it can be changed in the `build.config` file.
 
 ## Features:
 
 - Visual Studio Code debugging with <b>lldb</b> _(with working breakpoints, stepping, etc.)_
 - Separated compilation steps
-- Remote development (through SSH)
+- Remote development _(through SSH)_
 
 ## Build Commands:
 
-- `make` builds all the <kbd>.s</kbd> files in the `src` directory to a binary in the `out` directory.
+- `build` builds all the `.s` files in the `src` directory to a binary in the `out` directory.
 - `run` same as `make` but also runs the generated binary.
+- `verify` checks if <b>clang</b> and <b>ld.lld</b> are installed and prints the build configuration.
 - `clean` removes the content of the `out` and `obj` directories.
+- `all` executes all the above commands except `run`.
 
 ### Debugging:
 
