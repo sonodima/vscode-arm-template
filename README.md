@@ -7,7 +7,7 @@
   <br>
 </div>
  
-> Simple template for ARMv8 assembly development with Visual Studio Code.
+> Simple template for ARM assembly development with Visual Studio Code.
 
 The default target is the `cortex-a53;aarch64-elf`, but it can be changed in the `build.config` file.
 
