@@ -1,8 +1,8 @@
 <h1 align="center">VSCode ARM Template 🤖</h1>
 
 <div align="center">
-  <img src="https://badgen.net/badge/arch/ARMv8/pink"/>
-  <img src="https://badgen.net/badge/platform/Linux/orange"/>
+  <img src="https://badgen.net/badge/cpu/cortex-a53/pink"/>
+  <img src="https://badgen.net/badge/target/aarch64-elf/orange"/>
   <br>
   <br>
 </div>
